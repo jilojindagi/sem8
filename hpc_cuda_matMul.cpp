@@ -1,4 +1,4 @@
-// perform following steps in Colab(Preferably) or Jupyter Notebook
+// perform following steps in Colab
 // In Colab change Runtime Type too GPU
 // Cell 1: !nvcc --version
 // Cell 2: !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git

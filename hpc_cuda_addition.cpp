@@ -7,7 +7,7 @@
 %%cu
 #include <iostream>
 #include <cuda_runtime.h>
-#include / usr / local / cuda / include / cuda_runtime.h
+// #include / usr / local / cuda / include / cuda_runtime.h
 _global_void addVectors(int *A, int *B, int *C, int n)
 {
     int i = blockIdx.x * blockDim.x + threadIdx.x;

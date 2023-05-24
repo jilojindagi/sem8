@@ -1,4 +1,4 @@
-// perform following steps in Colab(Preferably) or Jupyter Notebook
+// perform following steps in Colab
 // In Colab change Runtime Type too GPU
 // Cell 1: !nvcc --version
 // Cell 2: !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
@@ -7,7 +7,7 @@
 %%cu
 #include <iostream>
 #include <cuda_runtime.h>
-
+// #include / usr / local / cuda / include / cuda_runtime.h
 __global__ void addVectors(int* A, int* B, int* C, int n)
 {
     int i = blockIdx.x * blockDim.x + threadIdx.x;
